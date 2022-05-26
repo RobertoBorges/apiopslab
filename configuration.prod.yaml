@@ -1,4 +1,4 @@
-apimServiceName: contosoapi202202
+apimServiceName: contosoapi202202-prod
 # namedValues:
 #   - name: [name goes here. e.g. environment or SearchEngineBackendURL. It doesn't have to exist in the target environment]
 #     displayName: [display name  goes here]

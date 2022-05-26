@@ -8,7 +8,7 @@ paths:
   /resource:
     get:
       summary: Retrieve resource
-      description: teste demonstration of a GET tall on a sample resource. It is handled by an "echo" backend which returns a response equal to the request (the supplied headers and body are being returned as received).
+      description: Teste demonstration of a GET tall on a sample resource. It is handled by an "echo" backend which returns a response equal to the request (the supplied headers and body are being returned as received).
       operationId: retrieve-resource
       parameters:
         - name: param1

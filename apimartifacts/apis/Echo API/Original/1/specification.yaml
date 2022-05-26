@@ -8,7 +8,7 @@ paths:
   /resource:
     get:
       summary: Retrieve resource
-      description: A demonstration of a GET call on a sample resource. It is handled by an "echo" backend which returns a response equal to the request (the supplied headers and body are being returned as received).
+      description: teste demonstration of a GET call on a sample resource. It is handled by an "echo" backend which returns a response equal to the request (the supplied headers and body are being returned as received).
       operationId: retrieve-resource
       parameters:
         - name: param1
@@ -20,7 +20,7 @@ paths:
               - sample
             type: string
             default: sample
-        - name: param2
+        - name: param3
           in: query
           description: 'Another sample parameter, set to not required.'
           schema:

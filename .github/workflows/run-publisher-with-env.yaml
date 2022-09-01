@@ -68,6 +68,7 @@ jobs:
           COMMIT_ID: ${{ inputs.COMMIT_ID }}
         run: |
           chmod +x ./publisher
+          ls -R
           ./publisher        
           
       - name: Run publisher without Config Yaml or Commit ID
@@ -82,6 +83,7 @@ jobs:
           API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH: ${{ GITHUB.WORKSPACE }}/${{ inputs.API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH }}
         run: |
           chmod +x ./publisher
+          ls -R
           ./publisher        
       
       - name: Run publisher with Config Yaml and Commit id
@@ -98,6 +100,7 @@ jobs:
           COMMIT_ID: ${{ inputs.COMMIT_ID }}
         run: |
           chmod +x ./publisher
+          ls -R
           ./publisher             
      
           
@@ -114,4 +117,5 @@ jobs:
           CONFIGURATION_YAML_PATH:  ${{ GITHUB.WORKSPACE }}/${{ inputs.CONFIGURATION_YAML_PATH }}
         run: |
           chmod +x ./publisher
+          ls -R
           ./publisher             

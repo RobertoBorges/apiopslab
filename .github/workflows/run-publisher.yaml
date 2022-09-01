@@ -28,7 +28,6 @@ jobs:
         id: commit
         run: |
           echo "::set-output name=commit_id::${GITHUB_SHA}"
-          ls -la
     outputs:
           commit_id: ${{ steps.commit.outputs.commit_id }}
   #Publish with Commit ID

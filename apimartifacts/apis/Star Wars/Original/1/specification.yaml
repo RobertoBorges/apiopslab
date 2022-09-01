@@ -12,15 +12,17 @@ paths:
       tags:
         - star-wars-api
       summary: GetPeople
+      description: GetPeople
       operationId: getpeople
       responses:
         '200':
-          description: 
+          description: ''
   '/people/{id}/':
     get:
       tags:
         - star-wars-api
       summary: GetPeopleById
+      description: GetPeopleById
       operationId: getpeoplebyid
       parameters:
         - name: id
@@ -31,10 +33,11 @@ paths:
             type: string
       responses:
         '200':
-          description: 
+          description: ''
   /film:
     get:
       summary: GetFilm
+      description: GetFilm
       operationId: getfilm
       responses:
         '200':

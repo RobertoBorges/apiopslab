@@ -1,0 +1,8 @@
+{
+  "name": "selfgw",
+  "properties": {
+    "locationData": {
+      "name": "DevBox"
+    }
+  }
+}

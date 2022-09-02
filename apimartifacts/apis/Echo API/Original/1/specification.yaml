@@ -10,6 +10,7 @@ paths:
   /resource:
     get:
       summary: resource
+      description: resource
       operationId: resource
       parameters:
         - name: param1
@@ -31,6 +32,7 @@ paths:
   /card:
     post:
       summary: send-teams-card
+      description: send-teams-card
       operationId: send-teams-card
       parameters:
         - name: message
@@ -40,7 +42,7 @@ paths:
             type: ''
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:

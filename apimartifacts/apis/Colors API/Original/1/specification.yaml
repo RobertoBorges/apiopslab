@@ -31,9 +31,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 type: array
@@ -95,9 +93,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -118,9 +114,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -152,9 +146,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -179,7 +171,7 @@ paths:
       parameters:
         - name: colourId
           in: path
-          description: Format - int32. Id of Colour to return
+          description: Format - int32. Format - int32. Id of Colour to return
           required: true
           schema:
             type: integer
@@ -191,9 +183,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -214,9 +204,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -241,9 +229,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -271,7 +257,7 @@ paths:
       parameters:
         - name: colourId
           in: path
-          description: Format - int32. Id of Colour to update
+          description: Format - int32. Format - int32. Id of Colour to update
           required: true
           schema:
             type: integer
@@ -307,9 +293,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -330,9 +314,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -360,7 +342,7 @@ paths:
       parameters:
         - name: colourId
           in: path
-          description: Format - int32. Id of Colour to delete
+          description: Format - int32. Format - int32. Id of Colour to delete
           required: true
           schema:
             type: integer
@@ -372,9 +354,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -395,9 +375,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -437,9 +415,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -460,9 +436,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -495,9 +469,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
@@ -518,9 +490,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -553,9 +523,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ColoursItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ColoursItem'

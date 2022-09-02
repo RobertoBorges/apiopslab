@@ -10,4 +10,4 @@ loggers:
 diagnostics:
    - name: applicationinsights
      verbosity: Error
-     loggerId: "/subscriptions/dea5dcc6-1a1a-4694-8e6c-f340da9c7ea1/resourceGroups/apim-appGw-RG/providers/Microsoft.ApiManagement/service/myappinsights-prod/loggers/myappinsights"
+     loggerId: "/subscriptions/dea5dcc6-1a1a-4694-8e6c-f340da9c7ea1/resourceGroups/apim-appGw-RG/providers/Microsoft.ApiManagement/service/myappinsights-prod/loggers/myappinsights-prod"

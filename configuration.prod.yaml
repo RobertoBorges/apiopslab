@@ -1,6 +1,6 @@
 apimServiceName: contosoapi202202-prod
 loggers:
-    - name: myappinsights-prod
+    - name: myappinsights
       loggerType: applicationInsights
       description: App insights for production
       resourceId: "/subscriptions/dea5dcc6-1a1a-4694-8e6c-f340da9c7ea1/resourceGroups/apim-appGw-RG/providers/microsoft.insights/components/myappinsights-prod"

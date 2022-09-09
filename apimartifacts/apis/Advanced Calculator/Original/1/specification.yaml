@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Basic Calculator WSIB
+  title: Basic Calculator WSIB2
   description: Arithmetics is just a call away2!
   version: '1.0'
 servers:

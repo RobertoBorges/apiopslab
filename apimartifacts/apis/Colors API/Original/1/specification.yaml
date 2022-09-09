@@ -171,7 +171,7 @@ paths:
       parameters:
         - name: colourId
           in: path
-          description: Format - int32. Format - int32. Id of Colour to return
+          description: Format - int32. Format - int32. Format - int32. Id of Colour to return
           required: true
           schema:
             type: integer
@@ -257,7 +257,7 @@ paths:
       parameters:
         - name: colourId
           in: path
-          description: Format - int32. Format - int32. Id of Colour to update
+          description: Format - int32. Format - int32. Format - int32. Id of Colour to update
           required: true
           schema:
             type: integer
@@ -342,7 +342,7 @@ paths:
       parameters:
         - name: colourId
           in: path
-          description: Format - int32. Format - int32. Id of Colour to delete
+          description: Format - int32. Format - int32. Format - int32. Id of Colour to delete
           required: true
           schema:
             type: integer

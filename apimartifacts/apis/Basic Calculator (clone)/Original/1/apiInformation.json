@@ -1,8 +1,8 @@
 {
-  "name": "basic-calculator",
+  "name": "631b73ed473c1cc9d291436d",
   "properties": {
-    "path": "calc",
-    "displayName": "Basic Calculator",
+    "path": "calc-clone",
+    "displayName": "Basic Calculator (clone)",
     "apiRevision": "1",
     "description": "Arithmetics is just a call away2!",
     "isCurrent": true,

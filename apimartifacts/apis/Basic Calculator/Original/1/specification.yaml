@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: Basic Calculator
-  description: Arithmetics is just a call away!
+  description: Arithmetics is just a call away2!
   version: '1.0'
 servers:
   - url: https://gateway.contosoapi202201.com/calc
